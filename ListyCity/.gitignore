@@ -1,15 +1,32 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
+# Gradle
+.gradle/
+build/
 /captures
-.externalNativeBuild
-.cxx
+
+# Kotlin
+.kotlin/
+
+# Local config (SDK path, secrets)
 local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Native builds
+.externalNativeBuild/
+.cxx/
+
+# Signing
+*.jks
+*.keystore
+
+# Built artifacts
+*.apk
+*.aab
+
+# OS
+.DS_Store
+
+# Firebase config — uncomment to keep it out of the repo
+# app/google-services.json
